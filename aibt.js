@@ -1,4 +1,3 @@
-<script>
 // === Light / Dark Mode ===
 document.getElementById('modeToggle').addEventListener('click', function () {
   const body = document.body;
@@ -58,4 +57,3 @@ function showComment(type) {
     window.fb_loaded = true;
   }
 }
-</script>
