@@ -1,15 +1,4 @@
-document.addEventListener(&quot;DOMContentLoaded&quot;, function () {
-    const currentURL = window.location.href;
-    const links = document.querySelectorAll(&quot;.menu-link&quot;);
-    links.forEach((link) =&gt; {
-      if (currentURL.includes(link.getAttribute(&quot;href&quot;))) {
-        link.classList.add(&quot;active&quot;);
-      }
-    });
-  });
-</script>
-    <script>
-  function toggleSearchBox() {
+ function toggleSearchBox() {
     const box = document.getElementById('search-box');
     box.style.display = box.style.display === 'block' ? 'none' : 'block';
   }
